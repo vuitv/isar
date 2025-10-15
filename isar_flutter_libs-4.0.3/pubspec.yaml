@@ -13,8 +13,10 @@ dependencies:
   flutter:
     sdk: flutter
   isar: 
-    version: 4.0.3
-    hosted: https://pub.isar-community.dev/
+    git:
+      url: https://github.com/vuitv/isar
+      ref: master
+      path: isar-4.0.3
 
 flutter:
   plugin:
